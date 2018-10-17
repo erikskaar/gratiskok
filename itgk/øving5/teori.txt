@@ -1,0 +1,22 @@
+a)
+	4 bytes = 4*8 bits = 2^(4*8) = 2^32 forskjellige verdier
+
+b)
+	(1920/1080)/8 = 259200 bytes som tilsvarer ca. 259.2 kilobytes
+
+c)
+	DAC er en elektronisk enhet som omformer digitale signaler til analoge.
+
+d)
+	titallssystemet:	18
+	binært: 		010010
+	16-tallssystemet:	0001 + 0010 = 1+2=12
+
+e)
+	POP = 0101 0000 0100 1111 0101 0000
+
+f)
+	En piksel er en del av en skjerm hvor man kan justere lysstyrken. Piksler brukes sammen med mange andre piksler til å fremstille digital data som lys, som igjen fremstiller et bilde.
+
+g)
+	Forskjellen på analog og digital lyd er at analog lyd er sammenhengende kontinuerlige lydbølger, mens digital lyd er en serie diskrete verdier.

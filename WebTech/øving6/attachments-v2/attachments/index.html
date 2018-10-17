@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tax form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="outerForm">
+        <form action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+            <div class="textInp">
+                <label for="name">Real name:</label> <br>
+                <input type="text" name="name" placeholder="Peter Parker" required> 
+            </div>
+            <div class="textInp">
+                <label for="gender">Gender:</label>
+                <br> <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female" checked="checked"> Female
+            </div>
+            <div class="textInp">
+                <label for="email">E-mail:</label>
+                <br> <input type="email" name="email" placeholder="spinning@web.com" required>
+            </div>
+            <div class="textInp">
+                <label for="birthdate">Birthdate:</label>
+                <br> <input type="date" max="1987-12-31" name="birthdate" required>
+            </div>
+            <div class="textInp">
+                <label for="hero">Hero name:</label>
+                <br> <input type="text" placeholder="Spider-Man" name="hero" required>
+            </div>
+            <div class="textInp">
+                <label for="spandex">Do you wear spandex:</label>
+                <br> Yes <input type="radio" name="spandex" value="True" checked="checked"> No <input type="radio" name="spandex" value="False">
+            </div>
+            <div class="textInp">
+                <label for="strength">Strength:</label>
+                <br> <select name="strength">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="textInp">
+                <label for="speed">Speed:</label>
+                <br> <select name="speed">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="textInp">
+                <label for="intelligence">Intelligence:</label>
+                <br> <select name="intelligence" >
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="textInp">
+                <label for="income">Income:</label> <br>
+                <input type="number" name="income" min="0" step="1" placeholder="999 999" required value="0" oninput="calcTax()">
+            </div>
+            <div class="textInp">
+                <label for="wealth">Wealth:</label> <br>
+                <input type="number" name="wealth" min="0" step="1" placeholder="999 999" required value="0" oninput="calcTax()"> <!-- you can also use addEventListener, but it would require more lines of code for only these to inputs, so I opted against it.-->
+            </div>
+            <div class="textInp">
+                    <label for="tax">Tax:</label> <br>
+                    <input type="number" name="tax" min="0" step="1" placeholder="999 999" disabled value="0">
+                </div>
+            <div class="textInp">
+                <button id="submit" type="submit">Submit tax form</button>
+            </div>
+            
+        </form>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var income = document.querySelector("input[name='income']");
+        var wealth = document.querySelector("input[name='wealth']");
+        var tax = document.querySelector("input[name='tax']");
+
+        function calcTax() {
+            tax.value= (0.35 * income.value) + (0.25 * wealth.value);
+        }
+    </script>
+</html>

@@ -1,0 +1,10 @@
+1.
+    Because it creates a floating point error due to 0.1 is in between two floating-point numbers.
+2.
+    The method attribute decides which way to send data to a server. POST sends it as a HTTP post-transaction, while GET appends it to the URL and is limited to 3000 characters and shows the data in the URL, which is not good if the information is sensitive.
+3.
+    GET doesn't have another way to send the data, and if you decide to share a link with a specific search it is required to be able to get the same result with the link.
+4.
+    It's considered bad practice to only validate form input with HTML5 and/or Js due to it being not secure at all, due to it being client-side. Therefore you should always sanitize the input data in the back-end aswell.
+5.
+    It is appropriate to use textarea over text as input when the input is expected to be pretty long, or several lines. Textarea has the ability to expand to show more of the input to the user so they can read over what they've read, compared to normal text input which only allows you to see what you've previously entered by moving the cursor further back in the text.
