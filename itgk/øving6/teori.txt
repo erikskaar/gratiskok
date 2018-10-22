@@ -1,0 +1,33 @@
+a)
+    Du finner HTTP, SMTP og FTP i applikasjonslaget
+b)
+    Den sender datoen som 1 bit og sjekker om det er partall eller oddetall og bruker dette for å se etter feil.
+c)
+    Forskjellen på packet switching og circuit switching er:
+        Circuit switching:
+            Fysisk vei mellom kilden og destinasjonen
+            Alle pakkene bruker samme vei
+            Reserverer hele båndbredden på forhånd
+            Mye av båndbredden er bortkastet
+            Støtter ikke lagring og "forwarding" av sendinger
+
+        Packet switching:
+            Ingen fysisk vei
+            Pakker sendes av hverandre
+            Reserverer ikke båndbredden
+            Ingen bortkasta båndbredden
+            Støtter lagring og "forwarding" av sendinger
+
+d)
+    Rutere får informasjon fra modemet og sender de til datamaskinen, og de kan sende informasjon til flere datamaskiner i motsetning til et modem.
+
+e)
+    En protokoll i nettverkssammenheng er regler som sier hvordan informasjonen som sendes over et nettverk skal være oppbygd.
+
+f)
+    Du har:
+        applikasjonslaget
+        transportlaget
+        nettverkslaget
+        datalinklaget
+        fysiske laget
