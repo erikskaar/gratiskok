@@ -1,8 +1,5 @@
 def is_six_at_edge(list):
-    if(list[0]==6 or list[-1]==6):
-        return True
-    else:
-        return False
+    return (list[0]==6 or list[-1]==6):
 
 
 newList = [1,2,3,4,5,6]
