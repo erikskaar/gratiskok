@@ -1,0 +1,26 @@
+a)
+    Et intranett er et internt nettverk som kun noen personer i en bedrift eller lignende har tilgang til.
+b)
+    En host er en maskin som kan kjøre applikasjoner som en klient eller en server. En ruter er en node som videresender data som ikke er eksplisitt adressert til den selv. IPv6 RFC definerer en host som "enhver node som ikke er en ruter".
+c)
+    Det der vil være et eksempel på en IP-adresse. (IPv4 for å være spesifikk)
+d)
+    En IP-adresse er en spesiell adresse til en datamaskin på et nettverk. Du har en ekstern IP-adresse og en intern. Den eksterne er din adresse på internettet, mens den interne er din adresse på kun ditt nettverk. Det finnes hovedsakelig to typer: IPv4 og IPv6
+e)
+    Forskjellene på IPv4 og IPv6 er mange men noen av de er:
+
+        IPv4:
+            32 bit adresse
+            mye færre adressemuligheter
+            inkluderer ikke en "checksum"
+        
+        IPv6:
+            128 bit adresse
+            "evig" mange adressemuligheter
+            inkluderer en checksum
+        
+f)
+    Vi har behov for IPv6 fordi vi nærmer oss slutten av mulige IPv4-adresser. I tillegg er det bedre på nesten alle mulige måter så mange selskap har startet å bytte til IPv6.
+
+g)
+    ISP står for Internet Service Provider og er et selskap som tilbyr nettverkstjenester som f.eks. Telenor.

@@ -1,0 +1,1 @@
+#Den vil skrive ut "The more you weigh, the harder you are to kidnap. Stay safe. Eat cake." fordi eat er en del av s2.lower()

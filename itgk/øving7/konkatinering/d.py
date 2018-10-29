@@ -1,0 +1,1 @@
+#den vil returnere 'bobbob' fordi den tar den fjerde bokstaven av alle ord som er 4 bokstaver eller lengre
