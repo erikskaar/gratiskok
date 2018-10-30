@@ -1,0 +1,15 @@
+1)
+    To get 3d canvas you need to use getContext('webgl').
+2)
+        var c=document.querySelector('canvas');
+        var ctx=c.getContext("2d");
+        ctx.beginPath();
+        ctx.fillStyle = 'blue';
+        ctx.arc(100,75,50,0,2*Math.PI);
+        ctx.fill();
+3)
+    const countries = ['Norway', 'Sweden', 'Denmark', 'New Zealand'];
+    let countriesStartingWithN = [];
+    let startingN = countries.filter(function(element) {
+        return element.startsWith('N') && countriesStartingWithN.push(element);
+    });    

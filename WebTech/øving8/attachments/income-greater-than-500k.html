@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income greather than 500 000</title>
+    <meta charset="UTF-8">
+    <script src="taxForms.js"></script>
+  </head>
+  <body>
+    <script>
+      for (i=0;i<taxForms.length;i++) {
+        if(taxForms[i].income>500000) {
+          console.log(taxForms[i].realName);
+        }
+      }
+      //Alternativ metode for å få det i en egen array
+      let taxNames = [];
+      let newTaxForms = taxForms.filter(function(element) {
+        return element.income >= 500000 && taxNames.push(element.realName);
+        
+      });
+      console.log(taxNames);
+    </script>
+  </body>
+</html>
