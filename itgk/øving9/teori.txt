@@ -1,0 +1,10 @@
+a)
+    Dersom TCP får packet loss vil den prøve å 'retransmissione' packetsene. Siden mottakeren ikke har mottatt pakkene vil den ikke initialisere ACK, så avsenderen vil gjøre dette.
+b)
+    Det vanligste er å sjekke hastighet (speed), forsinkelse (ping), og forskjellen mellom når pakkene ankommer destinasjonen (jitter).
+c)
+    Et DDos-angrep står for "Distributed denial of service" som vil si at det er et angrep som går ut på at man fyller opp nettverkskapasiteten til et nettverk med spam, men dette gjøres med flere datamaskiner slik at det er vanskeligere å blokkere.
+d)
+    VPN står for Virtual Private Network og er en måte å koble seg opp til et nettverk via en 'tunnel' som er en ekstern server som kan kryptere trafikken din. Det kan også brukes for å endre på hvor mottakeren tror trafikken kommer fra.
+e)
+    RSA-kryptering er en måte å kryptere informasjon på. Dersom du skal sende en kryptert melding til noen må du vite deres offentlige nøkkel og bruke den for å kryptere meldingen, for da kan de bruke sin private nøkkel til å dekryptere meldingen din. Den offentlige nøkkelen kan alle vite, men for at krypteringen skal være sikker må den private nøkkelen være hemmelig for alle andre.
