@@ -1,10 +1,10 @@
-my_family = {'bror':[], 'sister':[], 'mor':[], 'far':[]}
+my_family = {}
 
 def add_family_role(role, name):
     if role in my_family:
         my_family[role].append(name)
     else:
-        my_family[role] = name
+        my_family[role] = [name]
     return my_family
 
 add_family_role('far', 'Bob')
